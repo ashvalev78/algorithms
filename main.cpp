@@ -38,7 +38,7 @@ Object_array& Object_array ::operator&(const Object_array & B) const {
     set->A[set->cardinality] = 0;
     return *set;
 }
-
+//commit test
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
